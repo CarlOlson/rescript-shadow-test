@@ -1,0 +1,15 @@
+{
+  "name": "rescript-shadow-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "app",
+    "test-helpers",
+    "src-helpers"
+  ],
+  "private": true,
+  "dependencies": {
+    "rescript": "11.0.1"
+  }
+}

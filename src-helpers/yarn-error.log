@@ -1,0 +1,31 @@
+Arguments: 
+  /home/carl/.asdf/installs/nodejs/20.9.0/bin/node /home/carl/.asdf/installs/yarn/1.22.17/bin/yarn.js init
+
+PATH: 
+  /home/carl/.asdf/plugins/nodejs/shims:/home/carl/.asdf/installs/nodejs/20.9.0/bin:/home/carl/.asdf/installs/yarn/1.22.17/bin:/home/carl/.opam/4.14.0/bin:/home/carl/.asdf/shims:/home/carl/.asdf/bin:/home/carl/.asdf/installs/nodejs/16.13.1/.npm/bin:/home/carl/.opam/4.14.0/bin:/home/carl/git/scripts:/home/carl/.local/bin:/home/carl/.nix-profile/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/emacs/current/usr/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  20.9.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/carl/git/rescript-shadow-test/package.json: Expected double-quoted property name in JSON at position 153
+      at JSON.parse (<anonymous>)
+      at /home/carl/.asdf/installs/yarn/1.22.17/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/home/carl/.asdf/installs/yarn/1.22.17/lib/cli.js:310:30)
+      at /home/carl/.asdf/installs/yarn/1.22.17/lib/cli.js:321:13
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,26 @@
+{
+  "name": "app",
+  "bsc-flags": [],
+  "version": "0.0.0",
+  "sources": [
+    {
+      "dir": "src"
+    },
+    {
+      "dir": "test",
+      "type": "dev"
+    }
+  ],
+  "namespace": true,
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "pinned-dependencies": ["src-helpers", "test-helpers"],
+  "bs-dependencies": ["src-helpers", "test-helpers"],
+  "warnings": {
+    "number": "+A",
+    "error": "+A"
+  }
+}

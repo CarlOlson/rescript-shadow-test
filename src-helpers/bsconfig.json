@@ -1,0 +1,26 @@
+{
+  "name": "src-helpers",
+  "bsc-flags": [],
+  "version": "0.0.0",
+  "sources": [
+    {
+      "dir": "src"
+    },
+    {
+      "dir": "test",
+      "type": "dev"
+    }
+  ],
+  "namespace": true,
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [],
+  "bs-dev-dependencies": ["test-helpers"],
+  "warnings": {
+    "number": "-44",
+    "error": "+A"
+  }
+}
