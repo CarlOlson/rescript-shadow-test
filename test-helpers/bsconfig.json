@@ -1,7 +1,5 @@
 {
   "name": "test-helpers",
-  "bsc-flags": [],
-  "version": "0.0.0",
   "sources": [
     {
       "dir": "src"
@@ -17,8 +15,8 @@
     "in-source": true
   },
   "suffix": ".bs.js",
-  "bs-dependencies": [],
-  "bs-dev-dependencies": [],
+  "dependencies": [],
+  "dev-dependencies": [],
   "warnings": {
     "number": "+A",
     "error": "+A"

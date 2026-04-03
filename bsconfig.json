@@ -1,0 +1,15 @@
+{
+  "name": "rescript-shadow-test",
+  "namespace": true,
+  "sources": ["src"],
+  "suffix": ".bs.js",
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "dependencies": [
+    "app"
+  ]
+}

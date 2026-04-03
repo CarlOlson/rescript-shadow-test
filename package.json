@@ -10,6 +10,7 @@
   ],
   "private": true,
   "dependencies": {
-    "rescript": "11.0.1"
-  }
+    "rescript": "12.2.0"
+  },
+  "packageManager": "yarn@4.7.0"
 }
